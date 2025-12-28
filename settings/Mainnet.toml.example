@@ -1,0 +1,8 @@
+[network]
+name = "mainnet"
+deployment_fee_rate = 10
+
+[accounts.deployer]
+mnemonic = "your twelve or twenty four word seed phrase goes here"
+# IMPORTANT: Copy this file to Mainnet.toml and add your real mnemonic
+# Never commit Mainnet.toml to git!
