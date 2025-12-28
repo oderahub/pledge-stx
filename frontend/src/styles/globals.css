@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #7c3aed;
+  --color-secondary: #ec4899;
+}
+
+body {
+  @apply bg-gray-900 text-white;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  @apply border-gray-700;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-purple-600 to-pink-600 text-white;
+  @apply hover:from-purple-700 hover:to-pink-700;
+  @apply px-6 py-2 rounded-lg font-semibold transition-all;
+}
+
+.card {
+  @apply bg-gray-800/50 rounded-xl border border-gray-700;
+}
+
+.input {
+  @apply w-full px-4 py-2 bg-gray-900 border border-gray-700 rounded-lg;
+  @apply text-white focus:outline-none focus:ring-2 focus:ring-purple-500;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(124, 58, 237, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(124, 58, 237, 0.5); }
+}
+
+.animate-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded-full;
+}
