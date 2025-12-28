@@ -80,7 +80,7 @@
             
             ;; Print memo if provided
             (match memo
-                memo-value (print memo-value)
+                memo-value (begin (print memo-value) true)
                 true)
             
             (ok true))))
