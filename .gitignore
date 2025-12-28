@@ -1,0 +1,31 @@
+# Dependencies - Node.js and npm
+node_modules/
+.npm
+package-lock.json
+
+# Build
+dist/
+build/
+.cache/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Clarinet
+.clarinet/
+deployments/
+
+# Coverage
+coverage/
+claude.md

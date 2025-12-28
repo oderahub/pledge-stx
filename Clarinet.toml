@@ -1,0 +1,73 @@
+[project]
+name = "stacks-pledge"
+description = "A micro-commitment dApp for the Stacks Builder Challenge #3"
+authors = ["StacksPledge Team"]
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+# Boot contracts loaded before deployment for testing
+
+[contracts.stacks-pledge]
+path = "contracts/stacks-pledge.clar"
+clarity_version = 3
+epoch = 3.0
+
+[contracts.pledge-token]
+path = "contracts/pledge-token.clar"
+clarity_version = 3
+epoch = 3.0
+
+[contracts.pledge-trait]
+path = "contracts/traits/pledge-trait.clar"
+clarity_version = 3
+epoch = 3.0
+
+[[project.accounts]]
+name = "deployer"
+mnemonic = "twice particular affair smile push picture miss direct toss property leave alien"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_1"
+mnemonic = "sell invite acquire kitten bamboo drastic jelly vivid peace spawn twice guilt"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_2"
+mnemonic = "hold excess usual excess ring elephant install account glad dry fragile donkey"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_3"
+mnemonic = "cycle raccoon pool tragic discover tooth program staff cool injury asthma siren"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_4"
+mnemonic = "board list obtain sugar hour worth raven scout denial thunder horse logic"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_5"
+mnemonic = "hurry aunt blame peanut heavy update captain human rice crime juice adult"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_6"
+mnemonic = "area desk dutch exhaust resource plate afford drop tribe tornado vault used"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_7"
+mnemonic = "prevent gallery kind limb income control noise together echo rival record wedding"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_8"
+mnemonic = "faculty stumble alien lava winner iron address insane motor runway above maze"
+balance = 10_000_000_000_000
+
+[[project.accounts]]
+name = "wallet_9"
+mnemonic = "shadow index vibrant enough pumpkin text visual okay merit muffin heavy figure"
+balance = 10_000_000_000_000
