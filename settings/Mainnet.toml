@@ -1,8 +1,0 @@
-[network]
-name = "mainnet"
-deployment_fee_rate = 10
-
-[accounts.deployer]
-mnemonic = "<YOUR_MAINNET_MNEMONIC_HERE>"
-# IMPORTANT: Never commit your actual mnemonic to git!
-# Set this via environment variable or external config
